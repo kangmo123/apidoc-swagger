@@ -9,7 +9,7 @@
  * @apiParam {String} country="DE" Mandatory with default value "DE".
  * @apiParam {Number} [age=18]     Age with default 18.
  *
- * @apiSuccessExample {json} Success-Response:
+ * @apiSuccessExample Success-Response:
  * HTTP/1.1 200 OK
  * {
  *     "firstname": "John", // [] Firstname of the User.
