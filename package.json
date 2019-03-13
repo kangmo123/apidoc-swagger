@@ -31,16 +31,14 @@
   },
   "dependencies": {
     "apidoc-core": "0.3.1",
+    "axios": "^0.18.0",
     "fs-extra": "^0.16.5",
     "json-ast": "^2.1.7",
-    "json-to-ast": "^2.1.0",
-    "jsonc-parser": "^2.0.3",
     "lodash": "^3.5.0",
     "marked": "^0.3.3",
     "nomnom": "^1.8.1",
     "path-to-regexp": "^1.2.0",
-    "winston": "^0.9.0",
-    "axios": "^0.18.0"
+    "winston": "^0.9.0"
   },
   "devDependencies": {
     "jest": "^23.5.0"
