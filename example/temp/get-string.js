@@ -11,5 +11,5 @@
  *
  * @apiSuccessExample {string} Success-Response:
  * HTTP/1.1 200 OK
- * someting // 文件内容
+ * something // =something 文件内容
  */
