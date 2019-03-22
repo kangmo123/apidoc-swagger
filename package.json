@@ -1,7 +1,7 @@
 {
-  "name": "apidoc-swagger",
-  "version": "0.2.3",
-  "description": "Convert api doc json to swagger json",
+  "name": "@tencent/apidoc-swagger-yapi",
+  "version": "0.0.2",
+  "description": "Convert api doc json to swagger json and sync to yapi",
   "author": "Bahman Fakhr Sabahi, mokang@tencent.com",
   "license": {
     "type": "MIT",
@@ -48,7 +48,8 @@
     "test": "jest",
     "convert": "node ./example/convert.js",
     "send": "node ./example/send.js",
-    "cs": "npm run convert & npm run send"
+    "cs": "npm run convert & npm run send",
+    "build": "node ./bin/apidocSwagger.js --input ./example/input --output ./example/output --url http://impai.oa.com/api/open/import_data --token 76c5dad51ea5fb948ed5613d3ac1546174ea4d2b97382bd69f5d9dd417432038"
   },
   "jshintConfig": {
     "camelcase": true,

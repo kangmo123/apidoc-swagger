@@ -42,7 +42,8 @@
  *         "url": "http://www.qq.com/index.html",           // URL地址
  *         "uuid": "9b5f3289-8061-4352-980f-188c4218df67",  // UUID
  *         "datetime": "2019-03-18 14:15:01",               // 日期时间
- *         "imageData": "data:image/jpeg;base64,SGVsbG8sIFdvcmxkIQ%3D%3D",  // 图片数据
+ *         "date": "2019-03-18",                            // 日期
+ *         "time": "14:15:01",                              // 时间
  *         "hex": "#FF00FF",                // hex颜色
  *         "email": "email@tencent.com",    // 电子邮件
  *         "string": "The String",          // 任意字符串

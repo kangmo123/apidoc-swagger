@@ -25,6 +25,10 @@ var argv = nomnom
 
     .option('output', { abbr: 'o', 'default': './doc/', help: 'Output dirname.' })    
 
+    .option('url', { abbr: 'u', 'default': false, help: 'Yapi url.' })   
+
+    .option('token', { abbr: 't', 'default': false, help: 'Yapi token.' })   
+
     .option('verbose', { abbr: 'v', flag: true, 'default': false, help: 'Verbose debug output.' })
 
     .option('help', { abbr: 'h', flag: true, help: 'Show this help information.' })
@@ -126,6 +130,8 @@ var options = {
     includeFilters: argv['file-filters'],
     src           : argv['input'],
     dest          : argv['output'],
+    url           : argv['url'],
+    token         : argv['token'],
     verbose       : argv['verbose'],
     debug         : argv['debug'],
     parse         : argv['parse'],
