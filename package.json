@@ -1,6 +1,6 @@
 {
   "name": "@tencent/apidoc-swagger-yapi",
-  "version": "0.0.7",
+  "version": "0.0.13",
   "description": "Convert api doc json to swagger json and sync to yapi",
   "author": "Bahman Fakhr Sabahi, mokang@tencent.com",
   "license": {
@@ -49,8 +49,8 @@
     "convert": "node ./example/convert.js",
     "send": "node ./example/send.js",
     "cs": "npm run convert & npm run send",
-    "example-1": "node ./bin/apidocSwagger.js --input ./example/input --output ./example/output --url http://impai.oa.com/api/open/import_data --token 331c297add11c8182e5023045e96e1702a5223762029e7baca9311f19ce7b606",
-    "example-2": "node ./bin/apidocSwagger.js --input ./example/php/opp/ --output ./example/output --url http://impai.oa.com/api/open/import_data --token 331c297add11c8182e5023045e96e1702a5223762029e7baca9311f19ce7b606 --debug"
+    "example-1": "node ./bin/apidocSwagger.js --input ./example/input --output ./example/output --url http://impai.oa.com/api/open/import_data --token 60efbe4c5fcfc4d5c3ad93c306136cf0947d547c26bd4bc7932c7fb1a532b158",
+    "example-2": "node ./bin/apidocSwagger.js --input ./example/php/app/ --output ./example/output --url http://impai.oa.com/api/open/import_data --token 60efbe4c5fcfc4d5c3ad93c306136cf0947d547c26bd4bc7932c7fb1a532b158 --debug"
   },
   "jshintConfig": {
     "camelcase": true,
