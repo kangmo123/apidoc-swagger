@@ -1,6 +1,6 @@
 {
   "name": "@tencent/apidoc-swagger-yapi",
-  "version": "0.0.13",
+  "version": "0.0.16",
   "description": "Convert api doc json to swagger json and sync to yapi",
   "author": "Bahman Fakhr Sabahi, mokang@tencent.com",
   "license": {
