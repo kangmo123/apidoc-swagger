@@ -49,7 +49,7 @@
  *         "string": "The String",          // 任意字符串
  *     },
  *     "numberObj": {                  // 数字类型数据集合
- *         "positiveInteger": 50,      // 正整数
+ *         "positiveInteger": 50,      // {..99999999} 正整数
  *         "negativeInteger": -50,     // 负整数
  *         "positiveFloat": 4433.555,  // 正小数
  *         "negativeFloat": -8.65,     // 负小数
